@@ -3,7 +3,7 @@ Console.WriteLine("Введите массив строк через пробе�
 string text_a = Console.ReadLine()!;
 array1 = text_a.Split(' ');
 string[] array2 = new string[array1.Length];
-void NewArray(string[] array1, string[] array2)
+void Result(string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -23,5 +23,5 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-NewArray(array1, array2);
+Result(array1, array2);
 PrintArray(array2);
